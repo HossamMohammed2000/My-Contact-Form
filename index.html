@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Contact Form</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <!-- <label for="full-name">Full Name</label> -->
+          <div class="input-box">
+            <i class="ri-user-line"></i>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              required
+              placeholder="Enter your full name"
+            />
+            <span class="message-error" id="nameError"></span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <!-- <label for="Email-Address">Email Address</label> -->
+          <div class="input-box">
+            <i class="ri-mail-line"></i>
+            <input
+              type="email"
+              id="Email-Address"
+              name="Email-Address"
+              required
+              placeholder="name@example.com"
+            />
+            <span class="message-error" id="emailError"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <!-- <label for="Subject">Subject</label> -->
+
+          <div class="input-box">
+            <i class="ri-pencil-line"></i>
+            <input
+              type="text"
+              id="Subject"
+              name="Subject"
+              required
+              placeholder="write the message subject"
+            />
+            <span class="message-error" id="subjectError"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <!-- <label for="Message">Message</label> -->
+          <div class="input-box">
+            <i class="ri-message-line"></i>
+            <textarea
+              id="Message"
+              name="Message"
+              rows="5"
+              required
+              placeholder="Type your message here..."
+            ></textarea>
+            <span class="message-error" id="messageError"></span>
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+        <p id="success-message" class="status-message"></p>
+        <br />
+        <br />
+        <footer class="footer">
+          Let's Connect <br />
+          <b
+            >Feel free to reach out on social media or send a message anytime</b
+          >
+          <br />
+
+          <br />|
+          <a
+            href="https://www.linkedin.com/in/hossam-mohamed-15157822a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="ri-facebook-box-line"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hossam-mohamed-15157822a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hossam-mohamed-15157822a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hossam-mohamed-15157822a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          <a
+            href="https://github.com/HossamMohammed2000"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="ri-github-fill"></i>
+          </a>
+          <div class="footer-line"></div>
+          <p>Hossam Mohammed.All rights reserved©2025.</p>
+        </footer>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
