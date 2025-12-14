@@ -19,9 +19,14 @@ A simple, responsive contact form built with HTML, CSS, and JavaScript, intended
 ## Getting Started
 
 1. Clone or download this repository.
-   git clone https://github.com/HossamMohammed2000/My-Contact-Form.git
 
-text 2. Open the main HTML file (for example `index.html` or `contact.html`) in your browser to preview the form. 3. Link the CSS and JavaScript files as shown in the HTML file if you move them into another project.
+```
+   git clone https://github.com/HossamMohammed2000/My-Contact-Form.git
+```
+
+2. Open the main HTML file (for example `index.html` or `contact.html`) in your browser to preview the form.
+
+3. Link the CSS and JavaScript files as shown in the HTML file if you move them into another project.
 
 ## Integrating Into Your Site
 
@@ -56,4 +61,4 @@ Update the form’s `action` or JavaScript submission URL to point to your backe
 
 ## License
 
-Add a license of your choice (for example MIT) so others know how they can use or modify this contact form. [web:8]
+Add a license of your choice (for example MIT) so others know how they can use or modify this contact form. 
